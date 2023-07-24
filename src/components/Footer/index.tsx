@@ -5,7 +5,6 @@ import { UserImage } from "@/pages/home/style";
 import { userData } from "@/utils/userData";
 import { FaLinkedinIn, FaInstagram, FaFacebookF } from "react-icons/fa";
 import { Button } from "@/styles/Buttons";
-// import { HandEffect } from "../HandEffect";
 
 export const Footer = (): JSX.Element => {
   return (
@@ -21,10 +20,10 @@ export const Footer = (): JSX.Element => {
           />
           <Box css={{ marginLeft: "$2" }}>
             <Text type="heading4" color="grey5" css={{ marginBottom: "$2" }}>
-              Thank you! {/* <HandEffect /> */}
+              Muito obrigado!!
             </Text>
             <Text type="body1" color="grey2">
-              Follow me on my social networks and let's talk
+              Acompanhe-me nas redes sociais e vamos manter contato!
             </Text>
           </Box>
         </Flex>
@@ -35,7 +34,7 @@ export const Footer = (): JSX.Element => {
             gap: "$2",
           }}
         >
-          <Button
+          {/* <Button
             className="instagram"
             type="circle"
             as="a"
@@ -43,8 +42,9 @@ export const Footer = (): JSX.Element => {
             href={`https://instagram.com/${userData.instagramUser}`}
           >
             <FaInstagram />
-          </Button>
-          <Button
+          </Button> */}
+
+          {/* <Button
             className="facebook"
             type="circle"
             as="a"
@@ -52,7 +52,7 @@ export const Footer = (): JSX.Element => {
             href={`https://fb.com/${userData.facebookUser}`}
           >
             <FaFacebookF />
-          </Button>
+          </Button> */}
           <Button
             className="linkedin"
             type="circle"
